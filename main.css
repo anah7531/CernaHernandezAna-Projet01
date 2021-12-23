@@ -1,0 +1,90 @@
+/* Css pour tous le site web */
+*{
+    box-sizing: border-box;
+    }
+
+/* Navigation bar */
+.header
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    display: block;
+    height: 60px;
+}
+
+
+.chahead
+{
+    float: left;
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+    font-size: xx-large;
+}
+
+ul
+{
+    text-decoration: none;
+    position:relative;
+    bottom: 20px;
+}
+
+li
+{
+    float: right;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+li:hover
+{
+    background-color: rgb(88, 88, 88);
+}
+
+/*Met top menu écriture en blanc*/
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.footerh3
+{
+    padding-top: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+/*Footer noir Copyright en bas de la page.*/
+footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

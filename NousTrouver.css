@@ -1,0 +1,78 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CSS Div pour tous le contenu de la page (qui inclus les deux div de la pages)*/
+.maindiv
+{
+    margin-top: 150px;
+    margin-right: 11%;
+    margin-left: 11%;
+}
+
+/* CSS Map */
+.content1
+{
+    float: left;
+    height: 360px;
+    width: 560px;
+}
+
+/* Css Où nous trouver */
+.content2
+{
+    float: right;
+    height: 360px;
+    width: 560px;
+    display: block;
+}
+
+.h2trouver
+{
+    margin: 0;
+}
+
+/* Css img map */
+.maindiv img
+{
+    height: 350px;
+    width: 550px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(233, 231, 231);
+}
+
+/* Ligne horizontale */
+hr
+{
+    border: none;
+    height: 1px;
+    background-color: rgb(233, 231, 231);
+}
+
+/* Button métro */
+.button
+{
+    color: white;
+    border-width: 0;
+    border-radius: 45%;
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Couleur button */
+#bleu
+{
+    background-color: rgb(65, 153, 225);
+}
+
+#orange
+{
+    background-color:orange;
+}

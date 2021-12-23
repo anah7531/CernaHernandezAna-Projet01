@@ -1,0 +1,91 @@
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Css pour la section du contentu*/
+main
+{
+    margin: 5%;
+    height: 700px;
+}
+
+/* Css pour l'image */
+.main
+{
+    margin: 5% 25%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-image: url("images/cafe3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Css pour le formulaire */
+.form
+{
+    background-color:rgba(255, 254, 254, 0.541);
+    border: 1px solid black;
+    margin: 20% 10%;
+    padding: 2%;
+}
+
+/* Css pour le titre */
+.formtitle
+{
+    margin: 0;
+}
+
+/* Css pour ligne horizontale pour le h2 */
+hr
+{
+    border: none;
+    height: 1px;
+    background-color: rgb(233, 231, 231);
+}
+
+/* Css pour les labels du formulaire */
+label
+{
+    font-weight: bold;
+}
+
+/* Css pour l'espace de saisie du formulaire */
+input
+{
+    width: 100%;
+    border: 1px solid rgb(233, 231, 231);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+/* Css pour le text area du formulaire */
+textarea
+{
+    border: 1px solid rgb(233, 231, 231);
+    width: 100%;
+    resize: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+/* Button soumettre*/
+button
+{
+    color: white;
+    background-color: black;
+    height: 35px;
+    width: 125px;
+    border-width: 0;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}

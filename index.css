@@ -1,0 +1,76 @@
+
+/* Css sur toute la page */
+body
+{
+    background-image: url("images/cafe1.jpg");
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Titre sur le contenu */
+h1
+{
+    font-size: 300%;
+    margin-bottom: 10px;
+}
+
+/* CSS pour paragraph de la page index */
+div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    text-align: center;
+    display:block;
+}
+
+/* Ligne de séparattion entre h1 et paragraph */
+hr
+{
+    height: 10px;
+    width: 100px;
+    background-color: black;
+    border: none;
+}
+
+/* Paragraph */
+p
+{
+    line-height: 35px;
+    font-weight: 300;
+}
+
+/* h2 pour CHA CAFÉ */
+h2
+{
+    float: left;
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+    font-size: xx-large;
+}
+
+/* Copyright h3 */
+h3
+{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 300;
+}
+
+/* Button découvrir */
+button
+{
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 125px;
+    border-width: 0px;
+    border-radius: 25px;
+    font-weight: 800;
+}
